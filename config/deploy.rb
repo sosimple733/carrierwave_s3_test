@@ -1,7 +1,7 @@
 # config valid only for Capistrano 3.1
 lock '3.2.1'
 
-set :application, 'deploytest'
+set :application, 'carrierwave_s3_test'
 set :scm, :git
 set :repo_url, 'git@github.com:sosimple733/carrierwave_s3_test.git'
 set :deploy_to, '/home/ubuntu/apps/deploytest'
