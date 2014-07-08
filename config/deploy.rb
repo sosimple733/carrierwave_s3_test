@@ -4,8 +4,9 @@ lock '3.2.1'
 set :application, 'carrierwave_s3_test'
 set :scm, :git
 set :repo_url, 'git@github.com:sosimple733/carrierwave_s3_test.git'
-set :deploy_to, '/home/ubuntu/apps/deploytest'
+set :deploy_to, '/home/ubuntu/apps/carrierwave_s3_test'
 set :rvm_ruby_version, '1.9.3-p547'
+set :default_env, { rvm_bin_path: '~/.rvm/bin' }
 
 # Default branch is :master
 # ask :branch, proc { `git rev-parse --abbrev-ref HEAD`.chomp }.call

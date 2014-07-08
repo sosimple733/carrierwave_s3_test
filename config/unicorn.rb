@@ -4,7 +4,7 @@
 # ---------------------------------------------------------------------------------------------
 
 # Set your full path to application.
-app_path = "/home/ubuntu/apps/deploytest/current"
+app_path = "/home/ubuntu/apps/carrierwave_s3_test/current"
 
 # Set unicorn options
 worker_processes 1
